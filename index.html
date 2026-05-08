@@ -1,151 +1,28 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>kaosu.dev</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domain Available - kaosu.dev</title>
 
-<style>
-:root {
-  --accent: #6c63ff;
-  --accent2: #4f8cff;
-  --bg-dark: #0a0a12;
-}
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  cursor: none;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: var(--bg-dark);
-  color: white;
-  overflow: hidden;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: -50%;
-  background: radial-gradient(circle at 30% 30%, var(--accent), transparent 40%),
-              radial-gradient(circle at 70% 70%, var(--accent2), transparent 40%);
-  animation: glowMove 12s ease-in-out infinite alternate;
-  filter: blur(120px);
-  z-index: -1;
-}
-
-@keyframes glowMove {
-  0% { transform: translate(-10%, -10%) scale(1); }
-  100% { transform: translate(10%, 10%) scale(1.2); }
-}
-
-.banner {
-  background: linear-gradient(90deg, var(--accent), var(--accent2));
-  text-align: center;
-  padding: 1rem;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  animation: slideDown 1s ease forwards;
-  opacity: 0;
-}
-
-@keyframes slideDown {
-  from { transform: translateY(-20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-.center {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-}
-
-.center p {
-  font-size: 1.4rem;
-  opacity: 0;
-  transform: translateY(30px);
-  animation: slideUp 1.2s ease forwards;
-  animation-delay: 0.6s;
-}
-
-@keyframes slideUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  opacity: 0.7;
-}
-
-.cursor {
-  position: fixed;
-  width: 28px;
-  height: 28px;
-  border: 2px solid var(--accent);
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: transform 0.08s ease-out;
-  z-index: 9999;
-}
-
-.cursor::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 6px;
-  height: 6px;
-  background: var(--accent2);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-a:hover ~ .cursor,
-.banner:hover ~ .cursor {
-  transform: translate(-50%, -50%) scale(1.4);
-}
-</style>
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
-
 <body>
-
-<div class="banner">
-  「kaosu.dev」は販売中かもしれません！今すぐお問い合わせください。
-</div>
-
-<div class="center">
-  <p>ドメインはChaos Solutions経由でパークされています。</p>
-</div>
-
-<footer>
-  © 2026 カオス・ソリューションズ合同会社
-</footer>
-
-<div class="cursor"></div>
-
-<script>
-const cursor = document.querySelector('.cursor');
-
-document.addEventListener('mousemove', e => {
-  cursor.style.left = e.clientX + 'px';
-  cursor.style.top = e.clientY + 'px';
-});
-</script>
-
+  <iframe src="https://preview.canva.site/35544b5b-11f5-40c9-950c-f47175419fba/surveys.nextrae.com/parked-kaosu-dev"></iframe>
 </body>
 </html>
