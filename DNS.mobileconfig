@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>zenabits1.cer</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIEEjCCAvqgAwIBAgICIj0wDQYJKoZIhvcNAQELBQAwgZ0xETAP
+			BgNVBAMMCHplbmFiaXRzMRUwEwYDVQQKDAx6ZW5hYml0cyBMTEMx
+			HjAcBgNVBAsMFUNlcnRpZmljYXRlIEF1dGhvcml0eTERMA8GA1UE
+			CAwITmV3IFlvcmsxCzAJBgNVBAYTAlVTMREwDwYDVQQHDAhOZXcg
+			WW9yazEeMBwGCSqGSIb3DQEJARYPazQwc3VAcHJvdG9uLm1lMB4X
+			DTI2MDYxNjA1MzAyM1oXDTM2MDYxMzA1MzAyM1owgZ0xETAPBgNV
+			BAMMCHplbmFiaXRzMRUwEwYDVQQKDAx6ZW5hYml0cyBMTEMxHjAc
+			BgNVBAsMFUNlcnRpZmljYXRlIEF1dGhvcml0eTERMA8GA1UECAwI
+			TmV3IFlvcmsxCzAJBgNVBAYTAlVTMREwDwYDVQQHDAhOZXcgWW9y
+			azEeMBwGCSqGSIb3DQEJARYPazQwc3VAcHJvdG9uLm1lMIIBIjAN
+			BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAurSj+zbItaN/LUL1
+			phHazCYY5nx/W1kcbj33fjE1zFskXgeI8msfanFXMPTXU1ng0UbK
+			xhfeyxuqN4KTFJS5q7FIei3JJoSsgSkCiaXMJeO6CNUjvNK1X+x+
+			bObWSVhWhSinLx0OeDfywLyhHapagTai2vRrd6OIzDfRy6AlO0FJ
+			t74p1zz1PvxvJkkiRuw+9BB0ZMlXwvANr0uYCkfFcD1DhZpOsjAV
+			aJ9BoOoMEDIu1zi/ZXhEArHdeZYt0avWr+dtxvtb5KXmmFExtiAl
+			wkdQyt2l2i1CWJxqhdLccUK6zmJFZ2kQwjJqKVLcjjQr0LhKODl+
+			L/tsQUgYIBVVqQIDAQABo1owWDAPBgNVHRMBAf8EBTADAQH/MA4G
+			A1UdDwEB/wQEAwIChDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDAzAd
+			BgNVHQ4EFgQU3SahbL7pIQF4MbLG0PGwhLYPNGcwDQYJKoZIhvcN
+			AQELBQADggEBAKVvTZKFyiKPok6duABeM1s+1mA230I35g2UiH6N
+			9jaHP6lj7c6FUxevv1p3rado+AhR3qrlDcsJJGF5lwd4kuB3SI29
+			r3VU794tt3TuntKAVNzh/iwmf/fwS8xDQanhhBh0hSX3/WyothJC
+			ku4KvZch+h60Yi13iqIGFVhuErqu8JiFEljn3Wi/jpKIprN+ZsnK
+			SsXys3pkOTV6vQ6LIgrlHDPDz3vNTaPxbsOw98gBF6RDUWr75SvX
+			wPuxWHnZTm148aO08byTTCnl3WqnQ0LAZZXAMGB4Qk4gCEDReQoE
+			J45fJ5IpWNZXpSG8SDTwdxKTX/CkEO3kRM2T0Rx8eiA=
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a CA root certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>zenabits</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.72FAD17A-B413-43AF-A83E-E0A65BE03AE2</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>72FAD17A-B413-43AF-A83E-E0A65BE03AE2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>Ryders-MacBook-Pro.978B48E0-F276-4BF1-81BE-2962A75E46CB</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>18C1B369-63A6-4CE6-9AD0-8E2A1618733F</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
